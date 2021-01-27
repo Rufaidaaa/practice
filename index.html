@@ -9,7 +9,12 @@
 
 <body>
 
-    <script src="script.js"></script>
+    <script>
+        window.addEventListener("message", function (message) {
+            alert(message.data)
+        });
+
+    </script>
 </body>
 
 </html>
